@@ -1,0 +1,1 @@
+<view class="no-data"><view class="img-box"><image src="../static/images/no-data.png" mode="widthFix"></image></view><view>{{text}}</view></view>

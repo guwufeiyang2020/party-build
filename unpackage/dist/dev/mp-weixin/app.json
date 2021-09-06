@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/sign/sign",
+    "pages/share/share",
+    "pages/upload/upload",
+    "pages/leave/leave",
+    "pages/signSuccess/signSuccess",
+    "pages/signFail/signFail",
+    "pages/evaluate/evaluate",
+    "pages/evaluateOnline/evaluateOnline",
+    "pages/todoList/todoList",
+    "pages/todoDetail/todoDetail1",
+    "pages/todoDetail/todoDetail2",
+    "pages/todoDetail/todoDetail3",
+    "pages/todoDetail/todoDetail4",
+    "pages/todoDetail/todoDetail5",
+    "pages/todoDetail/todoDetail6",
+    "pages/webView/webView"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#da2a2a",
+    "backgroundColor": "#da2a2a"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#f07373",
+    "backgroundColor": "#fff",
+    "borderStyle": "#ddd",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tab/my.png",
+        "selectedIconPath": "static/tab/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

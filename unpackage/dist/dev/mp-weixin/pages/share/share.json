@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分享上传",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "no-data": "/components/NoData"
+  }
+}

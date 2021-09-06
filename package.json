@@ -1,0 +1,23 @@
+{
+  "name": "party-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guwufeiyang2020/uni-app-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guwufeiyang2020/uni-app-test/issues"
+  },
+  "homepage": "https://github.com/guwufeiyang2020/uni-app-test#readme",
+  "dependencies": {
+    "jsencrypt": "^3.2.0"
+  }
+}

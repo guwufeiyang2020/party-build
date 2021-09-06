@@ -1,0 +1,1 @@
+<view style="width:100%;"><web-view src="{{allUrl}}"></web-view></view>

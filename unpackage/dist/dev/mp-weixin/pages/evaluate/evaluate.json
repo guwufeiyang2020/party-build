@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "在线测评",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "no-data": "/components/NoData"
+  }
+}
