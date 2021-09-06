@@ -6,15 +6,9 @@
 					<image src="../../static/images/portrait.png" mode="widthFix" />
 				</view>
 				<view class="info-cont">
-<<<<<<< HEAD
 					<view class="name"> {{ userInfo.userName }} </view>
 					<view class="company"> {{ userInfo.orgName }} </view>
 					<view class="company"> {{ userInfo.partyBranchName }} </view>
-=======
-					<view class="name">张三</view>
-					<view class="company">中国电信公司</view>
-					<view class="company">第一党支部</view>
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 				</view>
 			</view>
 			<i class="iconfont icon-jiantou2"></i>
@@ -74,11 +68,7 @@
 						</view>
 					</view>
 				</view>
-<<<<<<< HEAD
 				<view class="section edit" @tap="edit">
-=======
-				<view class="section edit">
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 					退出登录
 				</view>
 			</view>
@@ -91,7 +81,6 @@
 	export default {
 		data() {
 			return {
-<<<<<<< HEAD
 				userInfo: uni.getStorageSync('userInfo')
 			}
 		},
@@ -102,13 +91,6 @@
 				    url: '/pages/login/login'
 				});
 			}
-=======
-				
-			}
-		},
-		methods: {
-			
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 		}
 	}
 </script>
@@ -177,13 +159,6 @@
 			width: 36upx;
 			height: 36upx;
 			margin-right: 44upx;
-<<<<<<< HEAD
-=======
-			image {
-				width: 100%;
-				height: 100%;
-			}
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 		}
 		.text {
 			flex: 1;

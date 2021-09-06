@@ -1,29 +1,18 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2566540 */
-<<<<<<< HEAD
   src: url('~@/static/fonts/iconfont.woff2?t=1626141033647') format('woff2'),
        url('~@/static/fonts/iconfont.woff?t=1626141033647') format('woff'),
        url('~@/static/fonts/iconfont.ttf?t=1626141033647') format('truetype');
-=======
-  src: url('~@/static/fonts/iconfont.woff2?t=1622012220990') format('woff2'),
-       url('~@/static/fonts/iconfont.woff?t=1622012220990') format('woff'),
-       url('~@/static/fonts/iconfont.ttf?t=1622012220990') format('truetype');
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-<<<<<<< HEAD
   font-size: 16px;
-=======
-  font-size: 28upx;
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-<<<<<<< HEAD
 .icon-pdf:before {
   content: "\e616";
 }
@@ -104,8 +93,6 @@
   content: "\e601";
 }
 
-=======
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 .icon-jiantou2:before {
   content: "\e63c";
 }

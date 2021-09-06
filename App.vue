@@ -15,43 +15,8 @@
 <style>
 	/* 全局字体图标 */
 	@import url("./static/fonts/iconfont.css");
-<<<<<<< HEAD
+
 	@import url("./static/css/reset.css");
 	@import url("./static/css/common.css");
-=======
-	/*每个页面公共css */
-	view,
-	scroll-view,
-	swiper,
-	swiper-item,
-	cover-view,
-	cover-image,
-	icon,
-	text,
-	rich-text,
-	progress,
-	button,
-	checkbox,
-	form,
-	input,
-	label,
-	radio,
-	slider,
-	switch,
-	textarea,
-	navigator,
-	audio,
-	camera,
-	image,
-	video {
-		box-sizing: border-box;
-	}
-	/* 单行溢出隐藏 */
-	.text-ellipsis {
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	 
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
+
 </style>

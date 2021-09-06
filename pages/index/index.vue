@@ -13,17 +13,11 @@
 				<swiper-item 
 					v-for="(item, index) in carouselList" 
 					:key="index" 
-<<<<<<< HEAD
 					class="carousel-item">
-=======
-					class="carousel-item" 
-					>
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 					<image :src="item.src" mode="widthFix" />
 				</swiper-item>
 			</swiper>
 		</view>
-<<<<<<< HEAD
 		<view class="content-wrapper">
 			<!-- 我的待办 -->
 			<view class="notice-header">
@@ -57,41 +51,23 @@
 				</view>
 			</view>
 			<view class="notice-section notice-section1">
-=======
-		
-		<view class="content-wrapper">
-			<!-- 通知区域 -->
-			<view class="notice-section">
-				<view class="notice-header">
-					<h2>待办通知</h2>
-					<view class="view-more">全部 <i class="iconfont icon-jiantou2"></i></view>
-				</view>
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 				<view class="notice-list">
 					<view 
 						v-for="(item, index) in newsList" 
 						:key="item.id"
 						class="notice-item"
 						@click="navToDetailPage(item)">
-<<<<<<< HEAD
-=======
-						<i class="icon-dot"></i>
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 						<text class="text text-ellipsis">{{item.text}}</text>
 					</view>
 				</view>
 			</view>
-<<<<<<< HEAD
-			
-=======
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
+
 			<!-- 广告区域 -->
 			<view class="ada-section">
 				<image src="../../static/images/ada.png" mode="widthFix" />
 			</view>
 			<!-- 底部区域 -->
 			<view class="bottom-section">
-<<<<<<< HEAD
 				<view class="section-item" @tap="navigateTo('/pages/sign/sign')">
 					<image src="../../static/images/bottom-img-1.png" mode="widthFix" />
 				</view>
@@ -99,22 +75,12 @@
 					<image src="../../static/images/bottom-img-2.png" mode="widthFix" />
 				</view>
 				<view class="section-item" @tap="navigateTo('/pages/share/share')">
-=======
-				<view class="section-item">
-					<image src="../../static/images/bottom-img-1.png" mode="widthFix" />
-				</view>
-				<view class="section-item">
-					<image src="../../static/images/bottom-img-2.png" mode="widthFix" />
-				</view>
-				<view class="section-item">
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 					<image src="../../static/images/bottom-img-3.png" mode="widthFix" />
 				</view>
 				<view class="section-item">
 					<image src="../../static/images/bottom-img-4.png" mode="widthFix" />
 				</view>
 			</view>
-<<<<<<< HEAD
 		</view>
 		<view class="mask-wrapper" v-if="showPopup">
 			<view class="mask-bg"></view>
@@ -149,8 +115,7 @@
 					<view class="start-time">{{startTime}}</view>
 				</view>
 			</view>
-=======
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
+
 		</view>
 	</view>
 </template>
@@ -159,15 +124,9 @@
 	export default {
 		data() {
 			return {
-<<<<<<< HEAD
 				showPopup: false,
 				birthdayName: '',
-				carouselList: [{
-					src: "/static/images/banner.png",
-				}, {
-					src: "/static/images/banner.png",
-				}, {
-=======
+		
 				carouselList: [{
 					src: "/static/images/banner.png",
 				},
@@ -175,14 +134,13 @@
 					src: "/static/images/banner.png",
 				},
 				{
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 					src: "/static/images/banner.png",
 				}],
 				indicatorDots: true,
 				autoplay: true,
 				interval: 2000,
 				duration: 500,
-<<<<<<< HEAD
+
 				todoList: [],
 				total: 0,
 				newsList: [{
@@ -309,27 +267,6 @@
 			},
 			closePopup() {
 				this.showPopup = false;
-=======
-				
-				newsList: [{
-					id: '01',
-					text: '2021-05-08 三会一课开展，请及时参加'
-				}, {
-					id: '02',
-					text: '2021-05-07 党建翼联活动开展，请及时参加'
-				}]
-			}
-		},
-		onLoad() {
-			
-		},
-		methods: {
-			swiperChange(e) {
-				console.log(e.target.value);
-			},
-			navToDetailPage(item) {
-				console.log(item);
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 			}
 		}
 	}
@@ -343,19 +280,11 @@
 		height: 100%;
 		overflow: hidden;
 	}
-<<<<<<< HEAD
-=======
-	image {
-		width: 100%;
-		height: 100%;
-	}
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 }
 .content-wrapper {
 	padding: 30upx;
 	.notice-section {
 		width: 100%;
-<<<<<<< HEAD
 		margin-bottom: 40upx;
 		padding: 30upx;
 		box-shadow: 0px 0px 6px rgba(219, 219, 219, 0.5);
@@ -365,13 +294,6 @@
 		box-shadow: none;
 		padding: 30upx 0;
 	}
-=======
-		height: 194upx;
-		margin-bottom: 40upx;
-		padding: 0 30upx;
-		box-shadow: 0px 0px 6px rgba(219, 219, 219, 0.5);
-	}
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 	.notice-header {
 		display: flex;
 		justify-content: space-between;
@@ -389,11 +311,7 @@
 	.notice-item {
 		font-size: 28upx;
 		line-height: 38upx;
-<<<<<<< HEAD
 		color: #434955;
-=======
-		color: #888787;
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 		margin-bottom: 10upx;
 		display: flex;
 		align-items: center;
@@ -402,37 +320,23 @@
 			width: 10upx;
 			height: 10upx;
 			border-radius: 50%;
-<<<<<<< HEAD
 			background: #434955;
-=======
-			background: #7b7a7a;
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 			margin-right: 10upx;
 		}
 		.text {
 			flex: 1;
 		}
-<<<<<<< HEAD
 		&.visited {
 			color: #7b7a7a;
 			.icon-dot { 
 				background: #7b7a7a;
 			}
 		}
-=======
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 	}
 	.ada-section {
 		width: 100%;
 		height: 100%;
 		margin-bottom: 40upx;
-<<<<<<< HEAD
-=======
-		image {
-			width: 100%;
-			height: 100%;
-		}
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 	}
 	.bottom-section {
 		display: flex;
@@ -443,7 +347,6 @@
 			&:nth-child(2n+1) {
 				margin-right: 4%;
 			}
-<<<<<<< HEAD
 		}
 	}
 }
@@ -527,12 +430,12 @@
 			bottom: 92upx;
 			width: 100%;
 			color: #323232;
-=======
+
 			image {
 				width: 100%;
 				height: 100%;
 			}
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
+
 		}
 	}
 }

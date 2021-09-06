@@ -13,7 +13,6 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "天翼党建云",
-<<<<<<< HEAD
 				"enablePullDownRefresh": true,
 				"app-plus": {
 					"titleNView": {
@@ -162,28 +161,6 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "PDF预览",
-=======
-				"app-plus": {
-					"titleNView": {
-						"buttons": [{
-								"fontSrc": "/static/fonts/iconfont.ttf",
-								"text": "\ue600",
-								"fontSize": "22",
-								"color": "#ffffff",
-								"float": "right",
-								"background": "rgba(0,0,0,0)"
-							}
-						]
-					}
-				}
-			}
-		}
-        ,{
-            "path" : "pages/my/my",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "我的",
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
                 "enablePullDownRefresh": false
             }
             
@@ -199,10 +176,7 @@
 		"color": "#666",
 		"selectedColor": "#f07373",
 		"backgroundColor": "#fff",
-<<<<<<< HEAD
 		"borderStyle": "#ddd",
-=======
->>>>>>> 2c890acfc96a0a572e59d6bf464ddd6ebd645366
 		"list": [{
 			"pagePath": "pages/index/index",
 			"iconPath": "static/tab/home.png",
